@@ -1,0 +1,78 @@
+*{
+    /* background-image: url(./images/netsalary.jpeg);
+    background-repeat: no-repeat; */
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+	background-image: url("./images/mamboZakayo.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+    opacity: 1;
+}
+input[type=text], select {
+    font-size: 40px;
+  }
+  
+.input-content{
+    /* margin: 10px
+    align-content: center;
+    margin-left: 600px; */
+   padding-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+   
+
+}
+#Basic-Salary{
+    align-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#Basic{
+    margin-top: 20px;
+    font-family: cursive;
+    
+}
+#nhif{
+  margin-top: 20px;
+  font-family: cursive;
+}
+#nssf{
+    margin-top: 20px;
+    font-family: cursive;
+}
+#payee{
+    margin-top: 20px;
+    font-family: cursive;
+}
+#taxableincome{
+    margin-top: 20px;
+    font-family: cursive;
+}
+#button{
+    margin-top: 20px;
+}
+#netpay{
+    margin-top: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+#details{
+    display: flex; /* displays the info in a row */
+    background-color:#333;
+    margin-top: 200px; /* This keeps a distance between the section and the section just above it */
+    justify-content: space-around; /* creates spaces between items in this section */
+  
+  }
+  .contact{
+    color: white;
+  }
